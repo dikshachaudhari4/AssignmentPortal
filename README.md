@@ -6,7 +6,7 @@ Student Assignment Submission Portal using NodeJs , MongoDb and Sawo Lab API.
 2) Name of file must be in following format (rollno_Assignmentno.pdf)<br>
 eg . 30U321_Assignment2.pdf
 
-## View : [ass-submission-portal.herokuapp.com/](url)
+## View : https://ass-submission-portal.herokuapp.com/
 ### Main page
 <img src="https://user-images.githubusercontent.com/52134154/134192547-1bcb78eb-fa5b-41f9-92d5-de977503ce86.png"/>&emsp;&emsp;
 ### Login
