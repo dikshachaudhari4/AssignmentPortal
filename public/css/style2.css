@@ -1,0 +1,11 @@
+body {
+  font-family: 'lato', sans-serif;
+  background: #ecf0f3;
+}
+.table{
+  width: 95%;
+  margin: 30px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}

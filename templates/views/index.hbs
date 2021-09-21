@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <title>Assignment Submission</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+       <link rel="stylesheet" href="css/style.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ 
+</head>
+<body>
+    <div class="container">
+        <div class="brand-logo"></div>
+         <form action="/login" method="get">
+        <input class="button" value="View Submission"  name="SUBMIT" type="submit">
+        </form>
+        <form action="assignment" method="post" enctype="multipart/form-data">
+        <div class="inputs">
+          <label>Roll No</label>
+          <input type="text" name="rollno" placeholder="30U200" required/>
+          <label>Student Name</label>
+          <input type="text" name="name" placeholder="abc" required/>
+          <label>Email</label>
+          <input type="email" name="email"placeholder="example@test.com" required/>
+          <label>Year</label>
+          <input list="years" name="year" placeholder="Year" required>
+            <datalist id="years">
+                <option value="first">
+                <option value="second">
+                <option value="third">
+                <option value="fourth">
+             </datalist>
+          <label>Branch</label>
+          <input list="branches" name="branch"placeholder="Branch" required>
+            <datalist id="branches">
+                <option value="CS/IT">
+                <option value="Mech">
+                <option value="Electrical">
+                <option value="Auto">
+             </datalist>
+          <label>Subject</label>
+          <input type="text" name="subject" placeholder="DBMS" required/>
+          <label>Assignment Number</label>
+          <input type="number" name="ass_no" min="1" max="12"required/>
+          <label>Upload Assignment</label>
+          <h6>(Format : rollno_Assignment4(number).pdf)</h6>
+          <input type="file" id="file"name="sub_file" placeholder="Format : RollNo.pdf" required/>
+          <input class="button" data-toggle="modal" value="Submit"  name="SUBMIT" type="submit">
+        </div>
+        </form>
+      </div> 
+
+</body>
+</html>
